@@ -4,13 +4,12 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Aotsuki Labs — Engineering Unified Intelligence</title>
-  <meta name="description" content="Aotsuki Labs is a deep-tech engineering collective. Builders of KALIX hardware intelligence. Download KALIX v1 free."/>
+  <meta name="description" content="Aotsuki Labs. Deep-tech engineering collective. Builders of KALIX hardware intelligence. Free download."/>
   <meta name="robots" content="index, follow"/>
   <link rel="canonical" href="https://aotsuki-labs.github.io/"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:title" content="Aotsuki Labs"/>
-  <meta property="og:description" content="Engineering Unified Intelligence. Deep-tech collective."/>
-  <meta property="og:url" content="https://aotsuki-labs.github.io/"/>
+  <meta property="og:title" content="Aotsuki Labs — Engineering Unified Intelligence"/>
+  <meta property="og:description" content="Deep-tech engineering collective. Builders of KALIX."/>
   <meta name="google-site-verification" content="PIhCtFu24zIhBaTSL2hMifqzlC92e_ZFvEUhd5VmGaA"/>
   <meta http-equiv="X-Content-Type-Options" content="nosniff"/>
   <meta http-equiv="X-Frame-Options" content="SAMEORIGIN"/>
@@ -25,145 +24,127 @@
 <body>
 
 <!-- NAV -->
-<header id="nav">
-  <div class="nav-inner">
-    <a class="logo" href="#" data-page="home">
-      <div class="logo-hex">
-        <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
-          <path d="M10 1L19 5.5V14.5L10 19L1 14.5V5.5L10 1Z" stroke="white" stroke-width="1.5" fill="none"/>
+<nav id="nav">
+  <div class="ni">
+    <button class="logo" data-go="home">
+      <div class="logo-icon">
+        <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+          <path d="M10 1L19 5.5V14.5L10 19L1 14.5V5.5Z" stroke="white" stroke-width="1.5" fill="none"/>
           <circle cx="10" cy="10" r="2.5" fill="white"/>
         </svg>
       </div>
       <span>Aotsuki</span>
-    </a>
-
-    <nav class="nav-links">
-      <a href="#" class="nl active" data-page="home">Home</a>
-      <a href="#" class="nl" data-page="products">Products</a>
-      <a href="#" class="nl" data-page="about">About</a>
-      <a href="#" class="nl" data-page="capabilities">Capabilities</a>
-      <a href="#" class="nl" data-page="invest">Invest</a>
-    </nav>
-
-    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+    </button>
+    <div class="nav-menu">
+      <button class="nm active" data-go="home">Home</button>
+      <button class="nm" data-go="products">Products</button>
+      <button class="nm" data-go="about">About</button>
+      <button class="nm" data-go="capabilities">Capabilities</button>
+      <button class="nm" data-go="invest">Invest</button>
+    </div>
+    <button class="nav-cta" data-go="products">
+      <svg width="12" height="12" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 7h10M7 2l5 5-5 5"/></svg>
+      Explore Products
+    </button>
+    <button class="burger" id="burger" aria-label="Menu">
       <span></span><span></span>
     </button>
   </div>
-  <div class="mobile-menu" id="mobile-menu">
-    <a href="#" data-page="home">Home</a>
-    <a href="#" data-page="products">Products</a>
-    <a href="#" data-page="about">About</a>
-    <a href="#" data-page="capabilities">Capabilities</a>
-    <a href="#" data-page="invest">Invest</a>
+  <div class="mobile-nav" id="mnav">
+    <button data-go="home">Home</button>
+    <button data-go="products">Products</button>
+    <button data-go="about">About</button>
+    <button data-go="capabilities">Capabilities</button>
+    <button data-go="invest">Invest</button>
   </div>
-</header>
+</nav>
 
-<!-- ═══════════════════════════════
-     PAGE: HOME
-═══════════════════════════════ -->
-<div id="page-home" class="page active">
+<!-- ═══ HOME ════════════════════════════════════ -->
+<div id="pg-home" class="pg active">
 
-  <!-- HERO — dark cinematic -->
+  <!-- HERO -->
   <section class="hero">
-    <div class="hero-bg" aria-hidden="true">
-      <div class="hb-grad"></div>
-      <div class="hb-grid"></div>
-      <div class="hb-glow hb-glow-1"></div>
-      <div class="hb-glow hb-glow-2"></div>
-      <div class="hb-glow hb-glow-3"></div>
+    <div class="hero-canvas" aria-hidden="true">
+      <div class="hc-noise"></div>
+      <div class="hc-grid"></div>
+      <div class="hc-g1"></div>
+      <div class="hc-g2"></div>
+      <div class="hc-g3"></div>
+      <div class="hc-g4"></div>
+      <div class="hc-lines">
+        <div class="hcl"></div><div class="hcl"></div><div class="hcl"></div>
+        <div class="hcl"></div><div class="hcl"></div>
+      </div>
     </div>
-
-    <div class="hero-content">
-      <div class="hero-badge">
-        <span class="hb-dot"></span>
+    <div class="hero-body">
+      <div class="hero-chip a1">
+        <span class="chip-dot"></span>
         Deep-Tech Engineering Collective · Est. 2025
       </div>
-
-      <h1 class="hero-title">
-        <span class="ht-line">Engineering</span>
-        <span class="ht-line ht-grad">Unified</span>
-        <span class="ht-line">Intelligence.</span>
+      <h1 class="hero-h1">
+        <span class="hh-row a2">Engineering</span>
+        <span class="hh-row hh-shine a3">Unified</span>
+        <span class="hh-row a4">Intelligence.</span>
       </h1>
-
-      <p class="hero-desc">
-        Aotsuki builds precision hardware tools and systems software<br>
-        for engineers operating at the frontier of infrastructure.
-      </p>
-
-      <div class="hero-actions">
-        <button class="ha-primary" data-page="products">
+      <p class="hero-p a5">Aotsuki builds precision hardware tools and systems software for engineers operating at the frontier of infrastructure.</p>
+      <div class="hero-btns a5">
+        <button class="hbtn-primary" data-go="products">
           Explore Products
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 7h10M7 2l5 5-5 5"/></svg>
         </button>
-        <button class="ha-ghost" data-page="about">About Aotsuki</button>
+        <button class="hbtn-ghost" data-go="about">About Aotsuki</button>
       </div>
     </div>
-
-    <div class="hero-bottom">
-      <div class="scroll-hint">
-        <div class="sh-line"></div>
-        <span>Scroll</span>
-      </div>
-    </div>
+    <div class="hero-scroll a5" aria-hidden="true"><div class="hs-bar"></div></div>
   </section>
 
   <!-- MARQUEE -->
-  <div class="marquee" aria-hidden="true">
+  <div class="mq-wrap" aria-hidden="true">
     <div class="mq">
-      <span>Hardware Intelligence</span><i>·</i><span>Kernel-Level Auditing</span><i>·</i><span>Thermal Analysis</span><i>·</i><span>Systems Software</span><i>·</i><span>Distributed Networks</span><i>·</i><span>Zero Telemetry</span><i>·</i><span>Deep-Tech Investment</span><i>·</i><span>SHA-256 Verified</span><i>·</i>
-      <span>Hardware Intelligence</span><i>·</i><span>Kernel-Level Auditing</span><i>·</i><span>Thermal Analysis</span><i>·</i><span>Systems Software</span><i>·</i><span>Distributed Networks</span><i>·</i><span>Zero Telemetry</span><i>·</i><span>Deep-Tech Investment</span><i>·</i><span>SHA-256 Verified</span><i>·</i>
+      <span>Hardware Intelligence</span><i>·</i><span>Kernel-Level Auditing</span><i>·</i><span>Thermal Analysis</span><i>·</i><span>Systems Software</span><i>·</i><span>Zero Telemetry</span><i>·</i><span>SHA-256 Verified</span><i>·</i><span>Deep-Tech Investment</span><i>·</i><span>Distributed Networks</span><i>·</i>
+      <span>Hardware Intelligence</span><i>·</i><span>Kernel-Level Auditing</span><i>·</i><span>Thermal Analysis</span><i>·</i><span>Systems Software</span><i>·</i><span>Zero Telemetry</span><i>·</i><span>SHA-256 Verified</span><i>·</i><span>Deep-Tech Investment</span><i>·</i><span>Distributed Networks</span><i>·</i>
     </div>
   </div>
 
-  <!-- PRODUCT SPOTLIGHT -->
-  <section class="section light-section">
+  <!-- PRODUCT CARDS -->
+  <section class="home-sec">
     <div class="w">
-      <div class="section-label purple">Products</div>
-      <h2 class="section-h2">Built with precision.<br>Deployed with trust.</h2>
-
-      <div class="product-cards">
-        <!-- KALIX v1 -->
-        <div class="pc pc-blue">
-          <div class="pc-top">
-            <div class="pc-tag">
-              <span class="pc-dot live"></span>
-              Available Now
-            </div>
-            <div class="pc-sector">Sector 01 · Hardware</div>
+      <div class="sec-ey blue-ey">Products</div>
+      <h2 class="sec-h2">Built with precision.<br>Deployed with trust.</h2>
+      <div class="pcards">
+        <div class="pcard pcard-v1">
+          <div class="pcard-top">
+            <div class="pcard-label"><span class="pd-live"></span>Available Now</div>
+            <div class="pcard-tag">Sector 01 · Hardware</div>
           </div>
-          <div class="pc-name">KALIX</div>
-          <div class="pc-ver">v1.0 · Hardware Auditor</div>
-          <p class="pc-desc">Kernel-level hardware verification. Thermal intelligence. SHA-256 audit manifests. One portable .exe — no install, no telemetry, no compromise.</p>
-          <div class="pc-facts">
-            <div class="pc-fact"><span class="pf-k">Speed</span><span class="pf-v">0.38ms</span></div>
-            <div class="pc-fact"><span class="pf-k">Platform</span><span class="pf-v">WIN64</span></div>
-            <div class="pc-fact"><span class="pf-k">Telemetry</span><span class="pf-v">Zero</span></div>
+          <div class="pcard-name blue-name">KALIX</div>
+          <div class="pcard-ver">v1.0 · Hardware Auditor · WIN64</div>
+          <p class="pcard-desc">Kernel-level hardware verification, thermal intelligence, and SHA-256 audit manifests. One portable executable — no install, no telemetry, no compromise.</p>
+          <div class="pcard-stats">
+            <div class="pstat"><span class="pk">Speed</span><span class="pv blue-v">0.38ms</span></div>
+            <div class="pstat"><span class="pk">Platform</span><span class="pv blue-v">WIN64</span></div>
+            <div class="pstat"><span class="pk">Telemetry</span><span class="pv blue-v">Zero</span></div>
           </div>
-          <button class="pc-btn blue" data-page="products" data-prod="v1">
+          <button class="pcard-btn blue-btn" data-go="products" data-prod="v1">
             View KALIX v1
             <svg width="13" height="13" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 7h10M7 2l5 5-5 5"/></svg>
           </button>
         </div>
-
-        <!-- KALIX v2 -->
-        <div class="pc pc-violet">
-          <div class="pc-top">
-            <div class="pc-tag">
-              <span class="pc-dot soon"></span>
-              In Development
-            </div>
-            <div class="pc-sector">Sector 01 · Hardware</div>
+        <div class="pcard pcard-v2">
+          <div class="pcard-top">
+            <div class="pcard-label"><span class="pd-soon"></span>In Development</div>
+            <div class="pcard-tag">Sector 01 · Hardware</div>
           </div>
-          <div class="pc-name">KALIX <em>v2</em></div>
-          <div class="pc-ver">Next Generation · Coming Soon</div>
-          <p class="pc-desc">Complete architectural rewrite. Cross-platform, AI-assisted anomaly detection, fleet auditing, and an open plugin API. Ships when it's right.</p>
-          <div class="pc-feat-row">
-            <span>Windows + Linux + macOS</span>
+          <div class="pcard-name vio-name">KALIX <em>v2</em></div>
+          <div class="pcard-ver">Next Generation · Coming Soon</div>
+          <p class="pcard-desc">Complete architectural rewrite. Cross-platform, AI-assisted anomaly detection, fleet auditing, and an open plugin API. Ships when it's right.</p>
+          <div class="pcard-pills">
+            <span>Win + Linux + macOS</span>
             <span>AI Detection</span>
             <span>Fleet Mode</span>
             <span>Plugin API</span>
           </div>
-          <button class="pc-btn violet" data-page="products" data-prod="v2">
+          <button class="pcard-btn vio-btn" data-go="products" data-prod="v2">
             See Roadmap
             <svg width="13" height="13" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 7h10M7 2l5 5-5 5"/></svg>
           </button>
@@ -172,43 +153,28 @@
     </div>
   </section>
 
-  <!-- WHO WE ARE -->
-  <section class="section dark-section">
+  <!-- ABOUT STRIP -->
+  <section class="home-sec about-strip">
     <div class="w">
-      <div class="who-grid">
-        <div class="who-left">
-          <div class="section-label cyan">About Aotsuki</div>
-          <h2 class="section-h2 light">We build for engineers, not investors.</h2>
-          <p class="body-light">Aotsuki is a multi-disciplinary technology collective built on one conviction: the most powerful software is built by people who understand the hardware it runs on.</p>
-          <p class="body-light mt">We ship instruments — tools that reveal truth about the systems operators depend on. Every product is judged by one test: does it give the engineer more accurate information than they had before?</p>
-          <button class="btn-light mt" data-page="about">
-            Our Story
-            <svg width="13" height="13" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 7h10M7 2l5 5-5 5"/></svg>
-          </button>
+      <div class="astrip-grid">
+        <div>
+          <div class="sec-ey teal-ey">About</div>
+          <h2 class="sec-h2">We build for<br>engineers, not investors.</h2>
+          <p class="body-d mt">Aotsuki is a technology collective built on one conviction: the most powerful software is built by people who understand the hardware it runs on. We ship instruments — not features.</p>
+          <button class="ghost-btn mt" data-go="about">Our Story →</button>
         </div>
-        <div class="who-right">
-          <div class="sector-stack">
-            <div class="ss-item ss-blue">
-              <div class="ss-num">01</div>
-              <div>
-                <div class="ss-title">Hardware Intelligence</div>
-                <div class="ss-sub">KALIX v1 live · KALIX v2 building</div>
-              </div>
-            </div>
-            <div class="ss-item ss-teal">
-              <div class="ss-num">02</div>
-              <div>
-                <div class="ss-title">Systems Software</div>
-                <div class="ss-sub">CLI frameworks · Runtime tooling</div>
-              </div>
-            </div>
-            <div class="ss-item ss-violet">
-              <div class="ss-num">03</div>
-              <div>
-                <div class="ss-title">Distributed Networks</div>
-                <div class="ss-sub">Zero-trust mesh · Protocol research</div>
-              </div>
-            </div>
+        <div class="sectors-col">
+          <div class="sc-item sc-blue">
+            <div class="sci-n">01</div>
+            <div><div class="sci-t">Hardware Intelligence</div><div class="sci-s">KALIX v1 live · KALIX v2 building</div></div>
+          </div>
+          <div class="sc-item sc-teal">
+            <div class="sci-n">02</div>
+            <div><div class="sci-t">Systems Software</div><div class="sci-s">CLI frameworks · Runtime tooling</div></div>
+          </div>
+          <div class="sc-item sc-vio">
+            <div class="sci-n">03</div>
+            <div><div class="sci-t">Distributed Networks</div><div class="sci-s">Zero-trust mesh · Protocol research</div></div>
           </div>
         </div>
       </div>
@@ -216,524 +182,335 @@
   </section>
 
   <!-- PRINCIPLES -->
-  <section class="section light-section">
+  <section class="home-sec">
     <div class="w">
-      <div class="section-label green">Principles</div>
-      <h2 class="section-h2">How we build.</h2>
-      <div class="pr-row">
-        <div class="pr-card blue-card">
-          <div class="prc-num">01</div>
-          <h3>No Telemetry, Ever</h3>
-          <p>KALIX makes zero network calls. A constraint in the architecture — not a policy we can reverse.</p>
-        </div>
-        <div class="pr-card teal-card">
-          <div class="prc-num">02</div>
-          <h3>Reproducible by Design</h3>
-          <p>Identical hardware, identical state, identical output. A hard engineering requirement, not a claim.</p>
-        </div>
-        <div class="pr-card orange-card">
-          <div class="prc-num">03</div>
-          <h3>Open Output Format</h3>
-          <p>Structured JSON. Plug into any pipeline. No ecosystem lock-in, ever.</p>
-        </div>
-        <div class="pr-card violet-card">
-          <div class="prc-num">04</div>
-          <h3>Engineers First</h3>
-          <p>No onboarding. No tutorials. Full operator competence assumed — always.</p>
-        </div>
+      <div class="sec-ey green-ey">Principles</div>
+      <h2 class="sec-h2">How we build.</h2>
+      <div class="pr-grid">
+        <div class="pr-c pr-blue"><span class="pr-n">01</span><h3>No Telemetry</h3><p>Zero network calls. A constraint in the architecture — not a policy.</p></div>
+        <div class="pr-c pr-teal"><span class="pr-n">02</span><h3>Reproducible</h3><p>Identical hardware, identical output. Hard engineering requirement.</p></div>
+        <div class="pr-c pr-orange"><span class="pr-n">03</span><h3>Open Format</h3><p>Structured JSON. Any pipeline. No ecosystem lock-in, ever.</p></div>
+        <div class="pr-c pr-vio"><span class="pr-n">04</span><h3>Engineers First</h3><p>No onboarding. Full operator competence assumed — always.</p></div>
       </div>
     </div>
   </section>
 
   <!-- INVEST TEASER -->
-  <section class="section invest-teaser">
+  <section class="home-sec invest-strip">
     <div class="w">
-      <div class="it-inner">
+      <div class="is-grid">
         <div>
-          <div class="section-label amber">Investment Thesis</div>
-          <h2 class="section-h2 light">We back deep-tech<br>from the inside.</h2>
-          <p class="body-light">We invest capital and engineering talent into the infrastructure layer — hardware intelligence, kernel tooling, network primitives. The part most investors don't understand because they've never built it.</p>
-          <button class="btn-light mt" data-page="invest">
-            Explore Thesis
-            <svg width="13" height="13" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 7h10M7 2l5 5-5 5"/></svg>
-          </button>
+          <div class="sec-ey amber-ey">Invest</div>
+          <h2 class="sec-h2">We back deep-tech<br>from the inside.</h2>
+          <p class="body-d mt">Capital and engineering talent into the infrastructure layer — hardware intelligence, kernel tooling, network primitives. 10-year horizons, operator-led due diligence.</p>
+          <button class="ghost-btn mt" data-go="invest">Explore Thesis →</button>
         </div>
-        <div class="it-pillars">
-          <div class="itp"><span class="itp-n">Infrastructure-first</span><span class="itp-d">Below the application layer. Assets that compound over decades.</span></div>
-          <div class="itp"><span class="itp-n">10-year horizons</span><span class="itp-d">Deep-tech compounds slowly and defensibly. Not quarterly metrics.</span></div>
-          <div class="itp"><span class="itp-n">Operator-led DD</span><span class="itp-d">We read source code before committing capital. No pitch decks.</span></div>
+        <div class="is-pillars">
+          <div class="isp"><span class="isp-t">Infrastructure-First</span><span class="isp-d">Below the application layer. Assets that compound over decades.</span></div>
+          <div class="isp"><span class="isp-t">Long-Horizon</span><span class="isp-d">10-year horizons. Deep-tech compounds slowly and defensibly.</span></div>
+          <div class="isp"><span class="isp-t">Operator-Led DD</span><span class="isp-d">We read source code before committing capital. No pitch decks.</span></div>
         </div>
       </div>
     </div>
   </section>
 
-</div><!-- /page-home -->
+</div><!-- /home -->
 
 
-<!-- ═══════════════════════════════
-     PAGE: PRODUCTS
-═══════════════════════════════ -->
-<div id="page-products" class="page">
-  <div class="page-hero prod-hero">
+<!-- ═══ PRODUCTS ════════════════════════════════ -->
+<div id="pg-products" class="pg">
+
+  <div class="page-top">
     <div class="w">
-      <div class="ph-inner">
-        <div class="section-label blue">Products</div>
-        <h1 class="page-h1">Precision tools.<br>Ground-truth data.</h1>
-        <p class="page-sub">KALIX is the hardware intelligence layer for engineers who demand accuracy over abstraction.</p>
+      <div class="sec-ey blue-ey">Products</div>
+      <h1 class="page-h1">Precision tools.<br>Ground-truth data.</h1>
+      <p class="page-sub">KALIX is the hardware intelligence layer for engineers who demand accuracy over abstraction.</p>
+    </div>
+  </div>
+
+  <div class="ptabs-bar">
+    <div class="w">
+      <div class="ptabs">
+        <button class="ptab active" data-prod="v1"><span class="ptd live"></span>KALIX v1<span class="ptb ptb-live">Available</span></button>
+        <button class="ptab" data-prod="v2"><span class="ptd soon"></span>KALIX v2<span class="ptb ptb-soon">Coming Soon</span></button>
       </div>
     </div>
   </div>
 
-  <!-- Product tabs -->
-  <div class="prod-tabs-bar">
-    <div class="w">
-      <div class="prod-tabs">
-        <button class="pt active" data-prod="v1">
-          <span class="pt-dot live"></span>
-          KALIX v1
-          <span class="pt-badge live">Available</span>
-        </button>
-        <button class="pt" data-prod="v2">
-          <span class="pt-dot soon"></span>
-          KALIX v2
-          <span class="pt-badge soon">Coming Soon</span>
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <!-- KALIX v1 -->
-  <div id="prod-v1" class="prod-panel active">
-
-    <!-- v1 hero -->
-    <div class="v1-hero">
+  <!-- V1 -->
+  <div id="pp-v1" class="pp active">
+    <div class="v1-top">
       <div class="w">
-        <div class="v1h-grid">
-          <div class="v1h-left">
-            <div class="v1h-name">KALIX</div>
-            <div class="v1h-ver">v1.0 · Hardware Auditor · Windows 64-bit</div>
-            <p class="v1h-desc">One portable executable that tells you exactly what is running inside your machine — and whether it should be trusted. Kernel-level truth. No abstraction. No network calls.</p>
-            <a href="https://github.com/Aotsuki-Unofficial1/aotsuki-unofficial.github.io/releases/download/v1.0.0/KALIX.zip" class="btn-download">
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor"><path d="M7 10.5L1 4.5h4V0h4v4.5h4L7 10.5zM0 12h14v2H0z"/></svg>
-              Download KALIX v1 — Free
-            </a>
-            <p class="dl-note">WIN64 · ~19 MB · SHA-256 verified · No install required · Zero telemetry</p>
-          </div>
-          <div class="v1h-right">
-            <div class="terminal">
-              <div class="term-top">
-                <i class="td r"></i><i class="td y"></i><i class="td g"></i>
-                <span>KALIX.exe — Hardware Audit</span>
-              </div>
-              <div class="term-body" id="term" aria-live="polite"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- How it works -->
-    <section class="section light-section">
-      <div class="w">
-        <div class="section-label blue">How It Works</div>
-        <h2 class="section-h2">Three phases. Under a second.</h2>
-        <div class="phases">
-          <div class="phase blue-phase">
-            <div class="phase-n">Phase 01</div>
-            <h3>Component Enumeration</h3>
-            <p>Direct hardware enumeration APIs — bypassing OS abstraction. CPU topology, PCI hierarchy, memory channels, firmware strings extracted at raw device level. Serial cross-reference detects cloning instantly.</p>
-          </div>
-          <div class="phase teal-phase">
-            <div class="phase-n">Phase 02</div>
-            <h3>Thermal Intelligence</h3>
-            <p>Direct sensor-bus polling at 100ms intervals across CPU and GPU. Junction temperature, TDP headroom, clock frequency, voltage state. Throttle events captured with full system snapshots.</p>
-          </div>
-          <div class="phase orange-phase">
-            <div class="phase-n">Phase 03</div>
-            <h3>Integrity Verification</h3>
-            <p>SHA-256 manifest cryptographically binding the audit to exact hardware state at time of execution. Deterministic, reproducible, and immutable across identical hardware states.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Spec -->
-    <section class="section" style="background:#f8f9fb;border-top:1px solid #e5e7eb">
-      <div class="w">
-        <div class="spec-layout">
+        <div class="v1t-grid">
           <div>
-            <div class="section-label teal">Technical Specification</div>
-            <h2 class="section-h2">Complete spec sheet.</h2>
-            <div class="spec-table">
-              <div class="sr"><span class="sk">Architecture</span><span class="sv">Python intelligence engine + custom-threaded UI</span></div>
-              <div class="sr"><span class="sk">Platform</span><span class="sv">Windows 64-bit · Portable .exe · No install</span></div>
-              <div class="sr"><span class="sk">Audit cycle</span><span class="sv">0.38ms from cold start</span></div>
-              <div class="sr"><span class="sk">Thermal polling</span><span class="sv">100ms interval · CPU and GPU simultaneously</span></div>
-              <div class="sr"><span class="sk">Integrity output</span><span class="sv">SHA-256 manifest per run · Deterministic</span></div>
-              <div class="sr"><span class="sk">Export format</span><span class="sv">Structured JSON · Any monitoring pipeline</span></div>
-              <div class="sr"><span class="sk">Network calls</span><span class="sv">Zero · Fully air-gap compatible</span></div>
-              <div class="sr"><span class="sk">File size</span><span class="sv">~19 MB · Distributed as ZIP</span></div>
-              <div class="sr last"><span class="sk">License</span><span class="sv">Free · Early-stage startup</span></div>
-            </div>
-          </div>
-          <div class="spec-cta-block">
-            <div class="scb-title">Ready to audit?</div>
-            <p>Free download. No registration. No telemetry. No strings.</p>
-            <a href="https://github.com/Aotsuki-Unofficial1/aotsuki-unofficial.github.io/releases/download/v1.0.0/KALIX.zip" class="btn-download">
+            <div class="v1t-name">KALIX</div>
+            <div class="v1t-ver">v1.0 · Hardware Auditor · Windows 64-bit</div>
+            <p class="v1t-desc">One portable executable. Kernel-level truth. No abstraction, no network calls, no compromise. Run it anywhere on Windows 64-bit and know exactly what's inside your machine.</p>
+            <a class="dl-btn" href="https://github.com/Aotsuki-Unofficial1/aotsuki-unofficial.github.io/releases/download/v1.0.0/KALIX.zip">
               <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor"><path d="M7 10.5L1 4.5h4V0h4v4.5h4L7 10.5zM0 12h14v2H0z"/></svg>
               Download KALIX v1 — Free
             </a>
-            <p class="dl-note">WIN64 · ~19 MB · SHA-256 verified</p>
+            <p class="dl-note">WIN64 · ~19 MB · SHA-256 verified · No install · Zero telemetry</p>
           </div>
-        </div>
-      </div>
-    </section>
-  </div><!-- /prod-v1 -->
-
-  <!-- KALIX v2 -->
-  <div id="prod-v2" class="prod-panel">
-
-    <div class="v2-hero">
-      <div class="v2h-bg" aria-hidden="true">
-        <div class="v2hb-glow"></div>
-      </div>
-      <div class="w">
-        <div class="v2h-content">
-          <div class="v2h-badge"><span class="pt-dot soon"></span>In Active Development</div>
-          <h1 class="v2h-title">KALIX v2 —<br>Rebuilt from scratch.</h1>
-          <p class="v2h-desc">Everything v1 proved was possible, taken to its logical conclusion. Faster, deeper, cross-platform, AI-assisted. No release date — ships when it's right.</p>
-          <div class="v2h-btns">
-            <button class="btn-light" data-prod="v1" data-switch-prod="true">Use KALIX v1 Now →</button>
+          <div>
+            <div class="terminal">
+              <div class="tt"><i class="td r"></i><i class="td y"></i><i class="td g"></i><span>KALIX.exe — Hardware Audit</span></div>
+              <div class="tb" id="term" aria-live="polite"></div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <section class="section light-section">
+    <section class="psec">
       <div class="w">
-        <div class="section-label violet">What's New in v2</div>
-        <h2 class="section-h2">Every limitation removed.</h2>
-        <div class="v2-feats">
-          <div class="v2f violet-card">
-            <div class="v2f-ico">🖥</div>
-            <h3>Cross-Platform</h3>
-            <p>Windows + Linux + macOS. One codebase, full parity across all three platforms.</p>
+        <div class="sec-ey blue-ey">How It Works</div>
+        <h2 class="sec-h2">Three phases. Under a second.</h2>
+        <div class="phases-grid">
+          <div class="ph ph-blue">
+            <div class="ph-n">Phase 01</div>
+            <h3>Component Enumeration</h3>
+            <p>Direct hardware enumeration APIs — bypassing OS abstraction entirely. CPU topology, PCI hierarchy, memory channels, firmware strings at raw device level. Serial cross-reference detects cloning and tampering instantly.</p>
           </div>
-          <div class="v2f blue-card">
-            <div class="v2f-ico">🧠</div>
-            <h3>AI Anomaly Detection</h3>
-            <p>Machine learning-assisted failure prediction and hardware anomaly flagging.</p>
+          <div class="ph ph-teal">
+            <div class="ph-n">Phase 02</div>
+            <h3>Thermal Intelligence</h3>
+            <p>Direct sensor-bus polling at 100ms intervals across CPU and GPU simultaneously. Junction temperature, TDP headroom, clock frequency, voltage state. Throttle events captured with full system snapshots.</p>
           </div>
-          <div class="v2f teal-card">
-            <div class="v2f-ico">🌐</div>
-            <h3>Fleet Mode</h3>
-            <p>Audit entire machine fleets remotely. Centralised manifest management.</p>
-          </div>
-          <div class="v2f orange-card">
-            <div class="v2f-ico">🔌</div>
-            <h3>Plugin API</h3>
-            <p>Open extensibility. Build and distribute your own hardware audit modules.</p>
-          </div>
-          <div class="v2f green-card">
-            <div class="v2f-ico">✍️</div>
-            <h3>Signed Binaries</h3>
-            <p>Cryptographically signed distribution. Verified publisher status at launch.</p>
-          </div>
-          <div class="v2f amber-card">
-            <div class="v2f-ico">📊</div>
-            <h3>GUI Dashboard</h3>
-            <p>Optional graphical interface alongside the CLI engine for non-terminal users.</p>
+          <div class="ph ph-orange">
+            <div class="ph-n">Phase 03</div>
+            <h3>Integrity Verification</h3>
+            <p>SHA-256 manifest cryptographically binding the audit to the exact hardware state at time of execution. Deterministic, reproducible, and immutable. Run it twice on identical hardware: identical output, byte for byte.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section" style="background:#f8f9fb;border-top:1px solid #e5e7eb">
+    <section class="psec psec-alt">
       <div class="w">
-        <div class="section-label blue">Development Roadmap</div>
-        <h2 class="section-h2">How we're getting there.</h2>
-        <div class="roadmap">
-          <div class="rm done">
-            <div class="rm-line"><div class="rm-dot done-dot"></div><div class="rm-connector"></div></div>
-            <div class="rm-body"><div class="rm-title">v1.0 — Foundation <span class="rm-badge done-badge">Shipped ✓</span></div><p>WIN64 kernel auditing, thermal monitoring, SHA-256 manifests. Available now — free download.</p></div>
+        <div class="spec-cols">
+          <div>
+            <div class="sec-ey teal-ey">Technical Spec</div>
+            <h2 class="sec-h2">Complete sheet.</h2>
+            <div class="spec-tbl">
+              <div class="srow"><span class="sk">Architecture</span><span class="sv">Python engine + custom-threaded UI</span></div>
+              <div class="srow"><span class="sk">Platform</span><span class="sv">Windows 64-bit portable</span></div>
+              <div class="srow"><span class="sk">Audit cycle</span><span class="sv">0.38ms from cold start</span></div>
+              <div class="srow"><span class="sk">Thermal polling</span><span class="sv">100ms · CPU + GPU</span></div>
+              <div class="srow"><span class="sk">Integrity output</span><span class="sv">SHA-256 manifest per run</span></div>
+              <div class="srow"><span class="sk">Export format</span><span class="sv">Structured JSON</span></div>
+              <div class="srow"><span class="sk">Network calls</span><span class="sv">Zero</span></div>
+              <div class="srow"><span class="sk">File size</span><span class="sv">~19 MB (ZIP)</span></div>
+              <div class="srow last"><span class="sk">License</span><span class="sv">Free · Early-stage startup</span></div>
+            </div>
           </div>
-          <div class="rm active">
-            <div class="rm-line"><div class="rm-dot active-dot"></div><div class="rm-connector"></div></div>
-            <div class="rm-body"><div class="rm-title">v2 Architecture <span class="rm-badge active-badge">Active →</span></div><p>Full codebase rewrite. Cross-platform abstraction layer. Modular plugin architecture.</p></div>
-          </div>
-          <div class="rm">
-            <div class="rm-line"><div class="rm-dot future-dot"></div><div class="rm-connector"></div></div>
-            <div class="rm-body"><div class="rm-title">v2 Alpha — Internal</div><p>Linux and macOS parity established. Core audit pipeline validated across three platforms.</p></div>
-          </div>
-          <div class="rm">
-            <div class="rm-line"><div class="rm-dot future-dot"></div><div class="rm-connector"></div></div>
-            <div class="rm-body"><div class="rm-title">v2 Beta — Limited</div><p>AI module integration. Fleet mode. Selected external testers from the engineering community.</p></div>
-          </div>
-          <div class="rm last">
-            <div class="rm-line"><div class="rm-dot future-dot"></div></div>
-            <div class="rm-body"><div class="rm-title">v2.0 — Public Release</div><p>Signed binaries. Plugin API docs. Enterprise deployment. Ships when it's right — no date set.</p></div>
+          <div class="spec-side">
+            <div class="ss-card">
+              <div class="ss-title">Ready to audit?</div>
+              <p>Free. No registration. No telemetry. No strings attached.</p>
+              <a class="dl-btn" href="https://github.com/Aotsuki-Unofficial1/aotsuki-unofficial.github.io/releases/download/v1.0.0/KALIX.zip">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor"><path d="M7 10.5L1 4.5h4V0h4v4.5h4L7 10.5zM0 12h14v2H0z"/></svg>
+                Download Free
+              </a>
+              <p class="dl-note">WIN64 · ~19 MB · SHA-256</p>
+            </div>
           </div>
         </div>
-        <div class="v2-cta-strip">
+      </div>
+    </section>
+  </div><!-- /v1 -->
+
+  <!-- V2 -->
+  <div id="pp-v2" class="pp">
+    <div class="v2-top">
+      <div class="v2t-glow" aria-hidden="true"></div>
+      <div class="w">
+        <div class="v2t-body">
+          <div class="v2t-chip"><span class="ptd soon"></span>In Active Development</div>
+          <h1 class="v2t-title">KALIX v2 —<br>Rebuilt from scratch.</h1>
+          <p class="v2t-desc">Everything v1 proved was possible, taken to its logical conclusion. Faster, deeper, cross-platform, AI-assisted. No release date — ships when it's right, not when it's due.</p>
+          <button class="ghost-btn" data-prod-switch="v1">Use KALIX v1 Now →</button>
+        </div>
+      </div>
+    </div>
+
+    <section class="psec">
+      <div class="w">
+        <div class="sec-ey vio-ey">What's New</div>
+        <h2 class="sec-h2">Every limitation removed.</h2>
+        <div class="v2f-grid">
+          <div class="v2f v2f-vio"><div class="v2fi">🖥</div><h3>Cross-Platform</h3><p>Windows + Linux + macOS. One codebase, full parity across all three.</p></div>
+          <div class="v2f v2f-blue"><div class="v2fi">🧠</div><h3>AI Detection</h3><p>Machine learning-assisted failure prediction and anomaly flagging.</p></div>
+          <div class="v2f v2f-teal"><div class="v2fi">🌐</div><h3>Fleet Mode</h3><p>Audit entire machine fleets. Centralised manifest management.</p></div>
+          <div class="v2f v2f-orange"><div class="v2fi">🔌</div><h3>Plugin API</h3><p>Open extensibility. Build and distribute your own audit modules.</p></div>
+          <div class="v2f v2f-green"><div class="v2fi">✍️</div><h3>Signed Binaries</h3><p>Cryptographically signed distribution. Verified publisher at launch.</p></div>
+          <div class="v2f v2f-amber"><div class="v2fi">📊</div><h3>GUI Dashboard</h3><p>Optional graphical interface alongside the CLI engine.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="psec psec-alt">
+      <div class="w">
+        <div class="sec-ey blue-ey">Roadmap</div>
+        <h2 class="sec-h2">How we're getting there.</h2>
+        <div class="rm-list">
+          <div class="rm rm-done"><div class="rmd done-d"></div><div><div class="rm-t">v1.0 — Foundation <span class="rmb rmb-done">Shipped ✓</span></div><p>WIN64 kernel auditing, thermal monitoring, SHA-256 manifests. Free download now.</p></div></div>
+          <div class="rm rm-active"><div class="rmd active-d"></div><div><div class="rm-t">v2 Architecture <span class="rmb rmb-active">Active →</span></div><p>Full codebase rewrite. Cross-platform abstraction layer. Modular plugin architecture.</p></div></div>
+          <div class="rm"><div class="rmd future-d"></div><div><div class="rm-t">v2 Alpha</div><p>Linux and macOS parity. Core audit pipeline validated across three platforms.</p></div></div>
+          <div class="rm"><div class="rmd future-d"></div><div><div class="rm-t">v2 Beta</div><p>AI module. Fleet mode. Selected external testers from the engineering community.</p></div></div>
+          <div class="rm last"><div class="rmd future-d"></div><div><div class="rm-t">v2.0 — Public</div><p>Signed binaries, plugin docs, enterprise deployment. Ships when it's right.</p></div></div>
+        </div>
+        <div class="v2-cta">
           <p>While v2 is being built, <strong>KALIX v1 is production-ready and completely free.</strong></p>
-          <a href="https://github.com/Aotsuki-Unofficial1/aotsuki-unofficial.github.io/releases/download/v1.0.0/KALIX.zip" class="btn-ink">Download KALIX v1 Free →</a>
+          <a class="dl-btn" href="https://github.com/Aotsuki-Unofficial1/aotsuki-unofficial.github.io/releases/download/v1.0.0/KALIX.zip">Download KALIX v1 →</a>
         </div>
       </div>
     </section>
-  </div><!-- /prod-v2 -->
+  </div><!-- /v2 -->
 
-</div><!-- /page-products -->
+</div><!-- /products -->
 
 
-<!-- ═══════════════════════════════
-     PAGE: ABOUT
-═══════════════════════════════ -->
-<div id="page-about" class="page">
-  <div class="page-hero about-hero">
+<!-- ═══ ABOUT ════════════════════════════════════ -->
+<div id="pg-about" class="pg">
+  <div class="page-top">
     <div class="w">
-      <div class="ph-inner">
-        <div class="section-label cyan">About</div>
-        <h1 class="page-h1">We are engineers<br>and investors.</h1>
-        <p class="page-sub">Aotsuki Labs — deep-tech engineering collective. Est. 2025.</p>
-      </div>
+      <div class="sec-ey teal-ey">About</div>
+      <h1 class="page-h1">We are engineers<br>and investors.</h1>
+      <p class="page-sub">Aotsuki Labs — deep-tech engineering collective. Est. 2025.</p>
     </div>
   </div>
 
-  <section class="section light-section">
+  <section class="psec">
     <div class="w">
-      <div class="about-split">
-        <div class="about-main reveal">
+      <div class="about-cols">
+        <div>
           <p class="about-lead">Aotsuki Labs is a multi-disciplinary technology collective founded on one conviction: the most powerful software is built by people who understand the hardware it runs on.</p>
-          <p class="body-text mt">We don't ship features. We ship instruments — tools that reveal truth about the systems operators depend on. KALIX exists because no existing tool does exactly this, in exactly this way, with exactly this level of trust in the operator's intelligence.</p>
-          <p class="body-text mt">We are an early-stage startup. We are not a verified software publisher. KALIX is free, portable, and makes zero network calls. Make your own judgement about trust — the binary will tell you the truth either way.</p>
+          <p class="body-d mt">We don't ship features. We ship instruments — tools that reveal truth about the systems operators depend on. KALIX exists because no existing tool does this, in this way, with this level of trust in the operator's intelligence.</p>
+          <p class="body-d mt">We are an early-stage startup. Not a verified publisher. KALIX is free, portable, and makes zero network calls. The binary will tell you the truth.</p>
         </div>
-        <div class="about-card reveal">
-          <div class="ac-row"><span class="ac-k">Founded</span><span class="ac-v">2025</span></div>
-          <div class="ac-row"><span class="ac-k">Type</span><span class="ac-v">Engineering Collective</span></div>
-          <div class="ac-row"><span class="ac-k">First product</span><span class="ac-v">KALIX v1</span></div>
-          <div class="ac-row"><span class="ac-k">Sectors</span><span class="ac-v">Hardware · Software · Networks</span></div>
-          <div class="ac-row"><span class="ac-k">Publisher status</span><span class="ac-v warn">Not verified (early-stage)</span></div>
-          <div class="ac-row last"><span class="ac-k">Fund status</span><span class="ac-v warn">Not a regulated fund</span></div>
+        <div class="about-card">
+          <div class="ac-r"><span class="ack">Founded</span><span class="acv">2025</span></div>
+          <div class="ac-r"><span class="ack">Type</span><span class="acv">Engineering Collective</span></div>
+          <div class="ac-r"><span class="ack">First product</span><span class="acv">KALIX v1</span></div>
+          <div class="ac-r"><span class="ack">Sectors</span><span class="acv">Hardware · Software · Networks</span></div>
+          <div class="ac-r"><span class="ack">Publisher</span><span class="acv warn">Not verified</span></div>
+          <div class="ac-r last"><span class="ack">Fund</span><span class="acv warn">Not regulated</span></div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section dark-section">
+  <section class="psec psec-alt">
     <div class="w">
-      <div class="section-label cyan">Manifesto</div>
-      <h2 class="section-h2 light">What we believe.</h2>
-      <div class="manifesto-grid">
-        <div class="mf blue-border"><span class="mf-n">01</span><h3>Hardware is the ground truth</h3><p>Every software abstraction eventually runs on physical silicon. The engineers who understand that layer hold a permanent advantage. We build for them — and we are them.</p></div>
-        <div class="mf teal-border"><span class="mf-n">02</span><h3>Trust through transparency</h3><p>We're not a verified publisher. Our response is transparency: KALIX is free, makes zero network calls. Trust us or don't — the binary tells the truth.</p></div>
-        <div class="mf violet-border"><span class="mf-n">03</span><h3>Assume operator competence</h3><p>No onboarding flows, tooltips, or feature prompts. If you need to be taught how to use our tools, we've failed.</p></div>
-        <div class="mf orange-border"><span class="mf-n">04</span><h3>No telemetry is architecture</h3><p>A constraint designed at the earliest stage. Reversing it would require rebuilding the product from scratch. That is intentional.</p></div>
-        <div class="mf green-border"><span class="mf-n">05</span><h3>Slow is smooth. Smooth is fast.</h3><p>KALIX v2 ships when it's right. Our investment thesis runs on 10-year horizons. Infrastructure that lasts is built deliberately.</p></div>
-        <div class="mf amber-border"><span class="mf-n">06</span><h3>The collective owns the roadmap</h3><p>Every major decision is contestable, documented, owned by the collective — not the founder, not a single engineer.</p></div>
+      <div class="sec-ey teal-ey">Manifesto</div>
+      <h2 class="sec-h2">What we believe.</h2>
+      <div class="mf-grid">
+        <div class="mf mf-blue"><span class="mfn">01</span><h3>Hardware is the ground truth</h3><p>Every abstraction eventually runs on silicon. The engineers who understand that layer hold a permanent advantage.</p></div>
+        <div class="mf mf-teal"><span class="mfn">02</span><h3>Trust through transparency</h3><p>Not a verified publisher. Our response: KALIX is free, makes zero network calls. Trust us or don't.</p></div>
+        <div class="mf mf-vio"><span class="mfn">03</span><h3>Assume operator competence</h3><p>No onboarding flows. If you need to be taught how to use our tools, we've failed.</p></div>
+        <div class="mf mf-orange"><span class="mfn">04</span><h3>No telemetry is architecture</h3><p>A constraint designed at the earliest stage. Reversing it requires rebuilding from scratch. Intentional.</p></div>
+        <div class="mf mf-green"><span class="mfn">05</span><h3>Slow is smooth</h3><p>KALIX v2 ships when it's right. Infrastructure that lasts is built deliberately, not urgently.</p></div>
+        <div class="mf mf-amber"><span class="mfn">06</span><h3>Collective ownership</h3><p>Every major decision is contestable, documented, owned by the collective — not one person.</p></div>
       </div>
     </div>
   </section>
-</div>
+</div><!-- /about -->
 
 
-<!-- ═══════════════════════════════
-     PAGE: CAPABILITIES
-═══════════════════════════════ -->
-<div id="page-capabilities" class="page">
-  <div class="page-hero caps-hero">
+<!-- ═══ CAPABILITIES ════════════════════════════ -->
+<div id="pg-capabilities" class="pg">
+  <div class="page-top">
     <div class="w">
-      <div class="ph-inner">
-        <div class="section-label teal">Capabilities</div>
-        <h1 class="page-h1">The command layer.</h1>
-        <p class="page-sub">Engineering and leadership — the operational competencies that ship products.</p>
-      </div>
+      <div class="sec-ey teal-ey">Capabilities</div>
+      <h1 class="page-h1">The command layer.</h1>
+      <p class="page-sub">Engineering and leadership — the operational competencies that actually ship products.</p>
     </div>
   </div>
 
-  <section class="section light-section">
+  <section class="psec">
     <div class="w">
       <div class="cap-list">
-        <div class="cap reveal">
-          <div class="cap-marker blue-marker">01</div>
-          <div class="cap-body">
-            <h3>Strategic Project Orchestration</h3>
-            <p>Leading multi-disciplinary engineering teams across hardware, software, and network domains. Delivery through dependency graph resolution — not authority chains. Sprint architecture around real constraints, not calendar cycles. Deliverable integrity is a design constraint encoded at inception.</p>
-            <div class="cap-tags blue-tags">
-              <span>Sprint Architecture</span><span>Dependency Resolution</span><span>Multi-domain Teams</span><span>Velocity Benchmarking</span>
-            </div>
-          </div>
-        </div>
-        <div class="cap reveal">
-          <div class="cap-marker teal-marker">02</div>
-          <div class="cap-body">
-            <h3>Collaborative Architecture</h3>
-            <p>Defining technical roadmaps across 12–36 month horizons. Every architecture decision carries an explicit rationale, a list of considered alternatives, and conditions for revisiting. Technology selection driven by total engineering cost over time — not hype cycles or vendor pressure.</p>
-            <div class="cap-tags teal-tags">
-              <span>Technical Roadmapping</span><span>Build-vs-Buy Analysis</span><span>Architecture Review</span><span>Decision Documentation</span>
-            </div>
-          </div>
-        </div>
-        <div class="cap reveal">
-          <div class="cap-marker orange-marker">03</div>
-          <div class="cap-body">
-            <h3>Rapid Crisis Resolution</h3>
-            <p>Root-cause-first methodology under production pressure. No patch ships without a documented origin chain. Race conditions, firmware regressions, cascading consensus failures — the process is: isolate, characterise, trace, fix, harden. Every post-mortem becomes an architectural constraint.</p>
-            <div class="cap-tags orange-tags">
-              <span>Root-Cause Analysis</span><span>Post-Mortem Discipline</span><span>Production Triage</span><span>Architecture Hardening</span>
-            </div>
-          </div>
-        </div>
-        <div class="cap reveal">
-          <div class="cap-marker violet-marker">04</div>
-          <div class="cap-body">
-            <h3>Kernel-Level Systems Engineering</h3>
-            <p>Direct hardware enumeration API access, multi-threaded sensor acquisition, and deterministic output generation. We write software that knows exactly where it's running — down to the silicon. Every abstraction layer bypassed is a potential attack surface eliminated.</p>
-            <div class="cap-tags violet-tags">
-              <span>Hardware Enumeration</span><span>Threaded Architecture</span><span>Deterministic Output</span><span>Sensor Acquisition</span>
-            </div>
-          </div>
-        </div>
+        <div class="cap reveal"><div class="cap-m cap-blue">01</div><div class="cap-b"><h3>Strategic Project Orchestration</h3><p>Leading multi-disciplinary engineering teams across hardware, software, and network domains. Delivery through dependency graph resolution — not authority chains. Sprint architecture around real constraints, not calendar cycles. Deliverable integrity is a design constraint encoded at inception.</p><div class="cap-tags ctags-blue"><span>Sprint Architecture</span><span>Dependency Resolution</span><span>Multi-domain Teams</span><span>Velocity Benchmarking</span></div></div></div>
+        <div class="cap reveal"><div class="cap-m cap-teal">02</div><div class="cap-b"><h3>Collaborative Architecture</h3><p>Defining technical roadmaps across 12–36 month horizons. Every architecture decision carries an explicit rationale, a list of considered alternatives, and the conditions under which it should be revisited. Technology selection driven by total engineering cost over time — not hype cycles.</p><div class="cap-tags ctags-teal"><span>Technical Roadmapping</span><span>Build-vs-Buy Analysis</span><span>Architecture Review</span><span>Decision Documentation</span></div></div></div>
+        <div class="cap reveal"><div class="cap-m cap-orange">03</div><div class="cap-b"><h3>Rapid Crisis Resolution</h3><p>Root-cause-first methodology under production pressure. No patch ships without a documented origin chain. Race conditions, firmware regressions, cascading consensus failures — the process is: isolate, characterise, trace, fix, harden. Every post-mortem becomes an architectural constraint.</p><div class="cap-tags ctags-orange"><span>Root-Cause Analysis</span><span>Post-Mortem Discipline</span><span>Production Triage</span><span>Architecture Hardening</span></div></div></div>
+        <div class="cap reveal last"><div class="cap-m cap-vio">04</div><div class="cap-b"><h3>Kernel-Level Systems Engineering</h3><p>Direct hardware enumeration API access, multi-threaded sensor acquisition, deterministic output generation. We write software that knows exactly where it's running — down to the silicon. Every abstraction layer bypassed is a potential attack surface eliminated.</p><div class="cap-tags ctags-vio"><span>Hardware Enumeration</span><span>Threaded Architecture</span><span>Deterministic Output</span><span>Sensor Acquisition</span></div></div></div>
       </div>
     </div>
   </section>
-</div>
+</div><!-- /capabilities -->
 
 
-<!-- ═══════════════════════════════
-     PAGE: INVEST
-═══════════════════════════════ -->
-<div id="page-invest" class="page">
-  <div class="page-hero invest-hero">
+<!-- ═══ INVEST ═══════════════════════════════════ -->
+<div id="pg-invest" class="pg">
+  <div class="page-top invest-top">
+    <div class="invest-top-glow" aria-hidden="true"></div>
     <div class="w">
-      <div class="ph-inner">
-        <div class="section-label amber">Investment Thesis</div>
-        <h1 class="page-h1">We back deep-tech<br>from the inside.</h1>
-        <p class="page-sub">Capital and engineering talent into the infrastructure layer.</p>
-      </div>
+      <div class="sec-ey amber-ey">Investment Thesis</div>
+      <h1 class="page-h1">We back deep-tech<br>from the inside.</h1>
+      <p class="page-sub">Capital and engineering talent into the infrastructure layer. The part most investors don't understand because they've never built it.</p>
     </div>
   </div>
 
-  <div class="invest-disclaimer">
-    <div class="w">
-      <div class="id-inner">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><circle cx="12" cy="16" r="0.5" fill="currentColor"/></svg>
-        Early-stage startup · Not a regulated investment vehicle · This describes our philosophy, not a formal fund offering
-      </div>
-    </div>
+  <div class="invest-disc">
+    <div class="w"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><circle cx="12" cy="16" r=".5" fill="currentColor"/></svg>Early-stage startup · Not a regulated investment vehicle · This describes our philosophy, not a formal fund offering</div>
   </div>
 
-  <section class="section light-section">
+  <section class="psec">
     <div class="w">
       <div class="invest-intro reveal">
-        <p class="about-lead">Aotsuki is not just a product company. We invest capital and engineering talent into the infrastructure layer of technology — the part most investors don't understand because they've never built it.</p>
-        <p class="body-text mt">Most investment in tech targets the application layer. We invest in what those products run on — hardware intelligence, kernel tooling, network primitives, distributed consensus protocols. These are assets that compound over decades.</p>
+        <p class="about-lead">Aotsuki is not just a product company. We invest capital and engineering talent into the infrastructure layer — hardware intelligence, kernel tooling, network primitives, distributed consensus. These assets compound over decades.</p>
       </div>
-
-      <div class="thesis-cards reveal">
-        <div class="tc violet-card">
-          <div class="tc-ico">🛡</div>
-          <h3>Infrastructure-First</h3>
-          <p>Below the application layer. Hardware intelligence, kernel tooling, network primitives, distributed consensus. Applications come and go. Infrastructure stays.</p>
-        </div>
-        <div class="tc blue-card">
-          <div class="tc-ico">⏳</div>
-          <h3>Long-Horizon Thinking</h3>
-          <p>10-year investment horizons. Deep-tech compounds slowly and defensibly. We don't optimise for growth metrics — we optimise for durability and engineering correctness.</p>
-        </div>
-        <div class="tc teal-card">
-          <div class="tc-ico">🔍</div>
-          <h3>Operator-Led Due Diligence</h3>
-          <p>We read source code, profile hardware, and stress-test architecture before committing capital. No surface-level pitch deck evaluation. If we can't understand it, we don't invest.</p>
-        </div>
-        <div class="tc orange-card">
-          <div class="tc-ico">🧩</div>
-          <h3>Collective Intelligence</h3>
-          <p>Every investment thesis is subject to collective engineering scrutiny. We move when the engineering evidence is compelling — speed from clarity, not urgency.</p>
-        </div>
+      <div class="thesis-grid reveal">
+        <div class="tc tc-vio"><div class="tci">🛡</div><h3>Infrastructure-First</h3><p>Below the application layer. Applications come and go. Infrastructure stays and compounds.</p></div>
+        <div class="tc tc-blue"><div class="tci">⏳</div><h3>Long-Horizon</h3><p>10-year investment horizons. Deep-tech compounds slowly and defensibly. Durability over growth metrics.</p></div>
+        <div class="tc tc-teal"><div class="tci">🔍</div><h3>Operator-Led DD</h3><p>We read source code and profile hardware before committing capital. No surface-level pitch deck evaluation.</p></div>
+        <div class="tc tc-orange"><div class="tci">🧩</div><h3>Collective Intelligence</h3><p>Every investment thesis is subject to collective engineering scrutiny. Speed from clarity, not urgency.</p></div>
       </div>
     </div>
   </section>
 
-  <section class="section dark-section">
+  <section class="psec psec-alt">
     <div class="w">
-      <div class="section-label amber">What Makes Us Different</div>
-      <h2 class="section-h2 light">We invest in what we understand because we built it.</h2>
-      <div class="diff-cols">
-        <div class="diff-item reveal">
-          <div class="di-check blue">✓</div>
-          <div><strong>We read source code before we commit.</strong> Not summaries — the actual source, profiled and stress-tested under realistic conditions.</div>
-        </div>
-        <div class="diff-item reveal">
-          <div class="di-check teal">✓</div>
-          <div><strong>We invest engineering time before capital.</strong> Understanding costs more than money — and costs it first. KALIX is proof we can execute.</div>
-        </div>
-        <div class="diff-item reveal">
-          <div class="di-check violet">✓</div>
-          <div><strong>We build alongside our investments.</strong> KALIX validates our thesis from the inside. We invest in what we've built.</div>
-        </div>
-        <div class="diff-item reveal">
-          <div class="di-check orange">✓</div>
-          <div><strong>No forced exit pressure.</strong> We invest on the same 10-year horizon we operate on. No LP obligations, no forced exits.</div>
-        </div>
+      <div class="sec-ey amber-ey">Differentiation</div>
+      <h2 class="sec-h2">We invest in what we built.</h2>
+      <div class="diff-grid">
+        <div class="di reveal"><div class="di-c di-blue">✓</div><div><strong>We read source code before we commit.</strong> Not summaries — the actual source, profiled under realistic conditions.</div></div>
+        <div class="di reveal"><div class="di-c di-teal">✓</div><div><strong>Engineering time before capital.</strong> Understanding costs more than money — KALIX is proof we can execute.</div></div>
+        <div class="di reveal"><div class="di-c di-vio">✓</div><div><strong>We build alongside investments.</strong> KALIX validates our thesis from the inside. We invest in what we've built.</div></div>
+        <div class="di reveal"><div class="di-c di-orange">✓</div><div><strong>No forced exits.</strong> Same 10-year horizon we operate on. No LP obligations, no fund lifecycle.</div></div>
       </div>
-    </div>
-  </section>
-
-  <section class="section light-section">
-    <div class="w">
-      <div class="invest-cta-block reveal">
+      <div class="inv-cta reveal">
         <h3>Interested in Aotsuki?</h3>
-        <p>We don't have a formal investment intake process yet. The best way to engage is to use what we've shipped and understand what we're building.</p>
-        <div class="icb-btns">
-          <a href="https://github.com/Aotsuki-Unofficial1/aotsuki-unofficial.github.io/releases/download/v1.0.0/KALIX.zip" class="btn-ink">Download KALIX v1 — Free</a>
-          <button class="btn-outline-ink" data-page="products" data-prod="v2">KALIX v2 Roadmap →</button>
+        <p>No formal intake process yet. The best way to engage is to use what we've shipped.</p>
+        <div class="inv-cta-btns">
+          <a class="dl-btn sm" href="https://github.com/Aotsuki-Unofficial1/aotsuki-unofficial.github.io/releases/download/v1.0.0/KALIX.zip">Download KALIX v1 — Free</a>
+          <button class="ghost-btn" data-go="products" data-prod="v2">KALIX v2 Roadmap →</button>
         </div>
       </div>
     </div>
   </section>
-</div>
+</div><!-- /invest -->
 
 
 <!-- FOOTER -->
 <footer>
   <div class="w">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <div class="logo-hex small">
-          <svg width="12" height="12" viewBox="0 0 20 20" fill="none">
-            <path d="M10 1L19 5.5V14.5L10 19L1 14.5V5.5L10 1Z" stroke="white" stroke-width="1.5" fill="none"/>
-            <circle cx="10" cy="10" r="2.5" fill="white"/>
-          </svg>
-        </div>
+    <div class="ft-top">
+      <div class="ft-brand">
+        <div class="logo-icon"><svg width="14" height="14" viewBox="0 0 20 20" fill="none"><path d="M10 1L19 5.5V14.5L10 19L1 14.5V5.5Z" stroke="white" stroke-width="1.5" fill="none"/><circle cx="10" cy="10" r="2.5" fill="white"/></svg></div>
         <span>Aotsuki</span>
       </div>
-      <p class="footer-tagline">Engineering Unified Intelligence · Deep-tech collective · Est. 2025</p>
+      <p class="ft-tag">Engineering Unified Intelligence · Deep-tech collective · Est. 2025</p>
     </div>
-    <div class="footer-grid">
-      <div>
-        <div class="fc-title">Products</div>
-        <div class="fc-links">
-          <button data-page="products" data-prod="v1">KALIX v1</button>
-          <button data-page="products" data-prod="v2">KALIX v2</button>
-          <a href="https://github.com/Aotsuki-Unofficial1/aotsuki-unofficial.github.io/releases/download/v1.0.0/KALIX.zip">Download Free</a>
-        </div>
-      </div>
-      <div>
-        <div class="fc-title">Company</div>
-        <div class="fc-links">
-          <button data-page="about">About</button>
-          <button data-page="capabilities">Capabilities</button>
-          <button data-page="invest">Invest</button>
-        </div>
-      </div>
-      <div>
-        <div class="fc-title">Legal</div>
-        <p class="footer-legal">Early-stage startup.<br>Not a verified publisher.<br>Not a regulated fund.</p>
-      </div>
+    <div class="ft-grid">
+      <div><div class="fth">Products</div><div class="ftl"><button data-go="products" data-prod="v1">KALIX v1</button><button data-go="products" data-prod="v2">KALIX v2</button><a href="https://github.com/Aotsuki-Unofficial1/aotsuki-unofficial.github.io/releases/download/v1.0.0/KALIX.zip">Download Free</a></div></div>
+      <div><div class="fth">Company</div><div class="ftl"><button data-go="about">About</button><button data-go="capabilities">Capabilities</button><button data-go="invest">Invest</button></div></div>
+      <div><div class="fth">Legal</div><p class="ft-legal">Early-stage startup.<br>Not a verified publisher.<br>Not a regulated fund.</p></div>
     </div>
-    <div class="footer-bottom">
+    <div class="ft-bottom">
       <span>© 2025 Aotsuki Labs. Built by engineers, for engineers.</span>
-      <div class="footer-status"><span class="dot-live"></span>KALIX v1 · Available Now</div>
+      <div class="ft-status"><span class="ft-dot"></span>KALIX v1 · Available Now</div>
     </div>
   </div>
 </footer>
